@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Reto2</title>
     <link rel="stylesheet" href="styleseccion1.css" />
+    <link rel="stylesheet" href="styleseccion1media.css" />
   </head>
   <body>
     <header>
@@ -18,7 +19,9 @@
         <li class="barra__opciones">Developers</li>
         <li class="barra__opciones">Resources</li>
         <li class="barra__opciones">Pricing</li>
-        <li class="barra__opciones"><button id="Sign">Sign In</button></li>
+        <li class="barra__opciones">
+          <button class="boton__sing">Sign In</button>
+        </li>
         <li class="menu__hamburguesa">
           <button>
             <div class="lineas"></div>
@@ -29,19 +32,13 @@
       </ul>
     </header>
 
-    <main>
-      <div class="main">
-        <section class="contenedor1">
+    <main class="main">
+      <section class="contenedor1">
+        <div>
           <h1 class="titulo__principal">
             Payments
             <br />infrastructure <br />for the world
           </h1>
-
-          <img
-            class="hero__phone"
-            src="../../imagenesreto2/hero-phone.png"
-            alt="hero-phone"
-          />
 
           <p class="parrafo1">
             Tons of companies all over the world use Swipe´s seamless platform
@@ -64,46 +61,48 @@
               />
             </button>
           </div>
-        </section>
+        </div>
+        <div>
+          <img
+            class="hero__phone"
+            src="../../imagenesreto2/hero-phone.png"
+            alt="hero-phone"
+          />
+        </div>
+      </section>
 
-        <section class="lista__iconos">
-          <img
-            src="../../imagenesreto2/instacart.png"
-            alt="instacart"
-            class="iconos"
-          />
-          <img
-            src="../../imagenesreto2/salesforce.png"
-            alt="salesforce"
-            class="iconos"
-          />
-          <img
-            src="../../imagenesreto2/amazon.png"
-            alt="amazon"
-            class="iconos"
-          />
-          <img src="../../imagenesreto2/slack.png" alt="slack" class="iconos" />
-          <img
-            src="../../imagenesreto2/shopify.png"
-            alt="shopify"
-            class="iconos"
-          />
-          <img
-            src="../../imagenesreto2/google.png"
-            alt="google"
-            class="iconos"
-          />
-          <img src="../../imagenesreto2/lyft.png" alt="lyft" class="iconos" />
-          <img src="../../imagenesreto2/zoom.png" alt="zoom" class="iconos" />
-        </section>
-      </div>
+      <section class="lista__iconos">
+        <img
+          src="../../imagenesreto2/instacart.png"
+          alt="instacart"
+          class="iconos"
+        />
+        <img
+          src="../../imagenesreto2/salesforce.png"
+          alt="salesforce"
+          class="iconos"
+        />
+        <img src="../../imagenesreto2/amazon.png" alt="amazon" class="iconos" />
+        <img src="../../imagenesreto2/slack.png" alt="slack" class="iconos" />
+        <img
+          src="../../imagenesreto2/shopify.png"
+          alt="shopify"
+          class="iconos"
+        />
+        <img src="../../imagenesreto2/google.png" alt="google" class="iconos" />
+        <img src="../../imagenesreto2/lyft.png" alt="lyft" class="iconos" />
+        <img src="../../imagenesreto2/zoom.png" alt="zoom" class="iconos" />
+      </section>
 
       <div class="contenedor__seccion2">
         <section class="seccion2">
           <h3 class="subtitulo__seccion2">Unified platform</h3>
+
           <h2 class="titulo__seccion2">
             All the payment products you'll ever need
           </h2>
+
+          <div class="parrafos__seccion2">
           <p class="parrafo__seccion2">
             We've got everything you'll need and more to build websites and apps
             that handle payments, payouts, and much more.Swipe's products power
@@ -122,6 +121,7 @@
             >, <span class="parrafo-renglon">manage financing</span>,
             <span>wrangle business spend</span>, and much more.
           </p>
+        </div>
 
           <button class="boton__star2">
             Start now
@@ -139,18 +139,21 @@
             id="tarjeta"
             class="imagenseccion2 tarjeta"
           />
+
           <img
             src="./imagenesreto2/slack-invoice.png"
             alt="card con slack"
             id="imagenSlack"
             class="imagenseccion2 imagenSlack"
           />
+
           <img
             src="./imagenesreto2/phone.png"
             alt="phone"
             id="celular"
             class="imagenseccion2 celular"
           />
+
           <img
             src="./imagenesreto2/dash.png"
             alt="tabla de tendencias "
@@ -158,7 +161,6 @@
             class="imagenseccion2 tendencias"
           />
         </div>
-        <div class="diagonal-azul"></div>
       </div>
     </main>
     <footer></footer>

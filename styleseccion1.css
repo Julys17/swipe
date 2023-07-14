@@ -60,11 +60,11 @@
 }
 
 .main {
-  padding: 16px;
   font-family: "Roboto", sans-serif;
 }
 
 .contenedor1 {
+  padding: 16px;
   font-style: "Anek Telugu", sans-serif;
 }
 
@@ -80,8 +80,8 @@
 
 .parrafo1 {
   font-size: 18px;
-  margin: 5px;
   line-height: 26px;
+  margin: 16px;
 }
 
 .botones {
@@ -134,15 +134,12 @@
 
 .contenedor__seccion2 {
   background-color: #f7f9fc;
-  position: relative;  
 }
 
 .seccion2 {
   display: flex;
   justify-content: center;
   display: grid;
-  grid-template-columns: auto;
-  grid-template-rows: 4;
   padding: 16px;
 }
 
@@ -181,7 +178,6 @@
     "celular imagenSlack imagenSlack"
     "celular tendencias tendencias";
   grid-gap: 2rem;
-  z-index: -2;
   background-color: transparent;
   padding: 32px 16px;
 }
@@ -206,20 +202,12 @@
   margin: 0 5px;
   margin-block-end: 16px;
   line-height: 26px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
 }
 
 .parrafo-renglon {
   color: #6962f7;
-}
-
-.diagonal-azul {
-  position: absolute;
-  top: 1020px;
-  height: 870px;
-  z-index: 1;
-  width: 100%;
-  background-color: #0a2540;
-  transform: skewY(-10deg);
 }
 
 .imagenseccion2 {
