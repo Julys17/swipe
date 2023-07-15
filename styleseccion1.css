@@ -60,11 +60,12 @@
 }
 
 .main {
-  padding: 16px;
   font-family: "Roboto", sans-serif;
+  overflow-x: hidden;
 }
 
 .contenedor1 {
+  padding: 16px;
   font-style: "Anek Telugu", sans-serif;
 }
 
@@ -80,8 +81,8 @@
 
 .parrafo1 {
   font-size: 18px;
-  margin: 5px;
   line-height: 26px;
+  margin: 16px;
 }
 
 .botones {
@@ -134,15 +135,12 @@
 
 .contenedor__seccion2 {
   background-color: #f7f9fc;
-  position: relative;
 }
 
 .seccion2 {
   display: flex;
   justify-content: center;
   display: grid;
-  grid-template-columns: auto;
-  grid-template-rows: 4;
   padding: 16px;
 }
 
@@ -181,7 +179,6 @@
     "celular imagenSlack imagenSlack"
     "celular tendencias tendencias";
   grid-gap: 2rem;
-  z-index: -2;
   background-color: transparent;
   padding: 32px 16px;
 }
@@ -206,20 +203,12 @@
   margin: 0 5px;
   margin-block-end: 16px;
   line-height: 26px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
 }
 
 .parrafo-renglon {
   color: #6962f7;
-}
-
-.diagonal-azul {
-  position: absolute;
-  top: 1020px;
-  height: 870px;
-  z-index: 1;
-  width: 100%;
-  background-color: #0a2540;
-  transform: skewY(-10deg);
 }
 
 .imagenseccion2 {
@@ -249,29 +238,38 @@
 }
 
 .seccion3 {
+  position: relative;
+  z-index: 1;
+}
+
+.diagonal-azul {
   position: absolute;
-  z-index: 2;
-  padding: 0 16px;
+  top: -50px;
+  height: 900px;
+  width: 100%;
+  background-color: #0a2540;
+  transform: skewY(-10deg);
+  z-index: -1;
+}
+
+.contenedor__seccion3 {
+  padding: 16px;
 }
 
 .subtitulo__seccion3 {
   color: #00d4ff;
   font-family: "Anek Telugu", sans-serif;
-  display: flex;
-  justify-content: left;
   font-size: 15px;
   font-weight: 500;
-  margin: 18px 0;
 }
 
 .titulo__seccion3 {
   color: #f7f9fc;
   font-size: 32px;
-  margin: 0 px;
+  margin: 16px 0;
   font-family: "Anek Telugu", sans-serif;
   display: flex;
   justify-content: left;
-  margin-block-end: 16px;
   line-height: 1.5em;
 }
 
@@ -302,45 +300,21 @@
   margin: 8px 0;
 }
 
-.tools {
+.parrafos__seccion3 {
+  color: #adbdcc;
+  font-size: 16px;
+  line-height: 18px;
+  font-family: "Roboto", sans-serif;
+}
+
+.titulos__iconos3 {
   color: #fff;
   font-weight: 500;
   font-family: "Roboto", sans-serif;
   margin: 0 0 16px 0;
 }
 
-.parrafo__icono1 {
-  color: #adbdcc;
-  font-size: 16px;
-  line-height: 18px;
-}
-
-.boton__See {
-  background-color: transparent;
-  color: #00d4ff;
-  border: none;
-  display: flex;
-  align-items: center;
-  font-size: 14px;
-  letter-spacing: 1px;
-  margin: 25px 5px;
-  font-weight: 700;
-}
-
-.custom {
-  color: #fff;
-  font-weight: 500;
-  font-family: "Roboto", sans-serif;
-  margin: 0 0 16px 0;
-}
-
-.parrafo__icono2 {
-  color: #adbdcc;
-  font-size: 16px;
-  line-height: 18px;
-}
-
-.boton__Explore {
+.direccionador__seccion3 {
   background-color: transparent;
   color: #00d4ff;
   border: none;
@@ -350,4 +324,8 @@
   letter-spacing: 1px;
   margin: 25px 5px;
   font-weight: 750;
+}
+
+.imagenes__seccion3 {
+  display: none;
 }
