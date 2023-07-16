@@ -60,11 +60,12 @@
 }
 
 .main {
-  padding: 16px;
   font-family: "Roboto", sans-serif;
+  overflow-x: hidden;
 }
 
 .contenedor1 {
+  padding: 16px;
   font-style: "Anek Telugu", sans-serif;
 }
 
@@ -81,7 +82,7 @@
 .parrafo1 {
   font-size: 18px;
   line-height: 26px;
-  margin:16px ;
+  margin: 16px;
 }
 
 .botones {
@@ -133,15 +134,13 @@
 }
 
 .contenedor__seccion2 {
-  background-color: #f7f9fc;  
+  background-color: #f7f9fc;
 }
 
 .seccion2 {
   display: flex;
   justify-content: center;
   display: grid;
-  /* grid-template-columns: auto;
-  grid-template-rows: 4; */
   padding: 16px;
 }
 
@@ -180,7 +179,6 @@
     "celular imagenSlack imagenSlack"
     "celular tendencias tendencias";
   grid-gap: 2rem;
-  /* z-index: -2; */
   background-color: transparent;
   padding: 32px 16px;
 }
@@ -205,6 +203,8 @@
   margin: 0 5px;
   margin-block-end: 16px;
   line-height: 26px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
 }
 
 .parrafo-renglon {
@@ -237,22 +237,22 @@
   height: 90%;
 }
 
-.seccion3{
+.seccion3 {
   position: relative;
-  z-index: 1;  
+  z-index: 1;
 }
 
 .diagonal-azul {
   position: absolute;
   top: -50px;
-  height: 880px;
+  height: 900px;
   width: 100%;
   background-color: #0a2540;
   transform: skewY(-10deg);
   z-index: -1;
 }
 
-.contenedor__seccion3{
+.contenedor__seccion3 {
   padding: 16px;
 }
 
@@ -261,7 +261,6 @@
   font-family: "Anek Telugu", sans-serif;
   font-size: 15px;
   font-weight: 500;
-  
 }
 
 .titulo__seccion3 {
@@ -270,7 +269,7 @@
   margin: 16px 0;
   font-family: "Anek Telugu", sans-serif;
   display: flex;
-  justify-content: left;  
+  justify-content: left;
   line-height: 1.5em;
 }
 
@@ -305,6 +304,7 @@
   color: #adbdcc;
   font-size: 16px;
   line-height: 18px;
+  font-family: "Roboto", sans-serif;
 }
 
 .titulos__iconos3 {
@@ -326,11 +326,15 @@
   font-weight: 750;
 }
 
-.seccion4{
+.imagenes__seccion3 {
+  display: none;
+}
+
+.seccion4 {
   padding: 16px;
 }
 
-.subtitulo__seccion4{
+.subtitulo__seccion4 {
   color: #6962f7;
   font-family: "Anek Telugu", sans-serif;
   font-size: 15px;
@@ -338,28 +342,35 @@
   margin: 16px 0;
 }
 
-.titulo__seccion4{  
+.titulo__seccion4 {
   font-size: 32px;
   margin: 16px 0;
   font-family: "Anek Telugu", sans-serif;
   display: flex;
-  justify-content: left;  
+  justify-content: left;
   line-height: 1.5em;
 }
 
-.iconos__seccion4{
-  height: 30px;
+.contenedor__iconos4 {
+  margin: 32px 0;
+}
+
+.iconos__seccion4 {
+  height: 40px;
   margin-bottom: 8px;
 }
 
-.titulos__iconos{
+.titulos__iconos {
   font-family: "Roboto", sans-serif;
   margin: 0 0 16px 0;
-  font-weight: 100;
+  font-weight: 500;
+  font-size: 15px;
 }
 
-.seccion4__parrafo{
-  margin: 20px 0 30px 0;  
+.seccion4__parrafo {
+  margin: 20px 0 30px 0;
+  font-family: "Roboto", sans-serif;
 }
+
 
 
