@@ -246,7 +246,7 @@
 .diagonal-azul {
   position: absolute;
   top: -50px;
-  height: 900px;
+  height: 100%;
   width: 100%;
   background-color: #0a2540;
   transform: skewY(-10deg);
@@ -330,3 +330,48 @@
 .imagenes__seccion3 {
   display: none;
 }
+
+.seccion4 {
+  padding: 16px;
+}
+
+.subtitulo__seccion4 {
+  color: #6962f7;
+  font-family: "Anek Telugu", sans-serif;
+  font-size: 15px;
+  font-weight: 500;
+  margin: 16px 0;
+}
+
+.titulo__seccion4 {
+  font-size: 32px;
+  margin: 16px 0;
+  font-family: "Anek Telugu", sans-serif;
+  display: flex;
+  justify-content: left;
+  line-height: 1.5em;
+}
+
+.contenedor__iconos4 {
+  margin: 32px 0;
+}
+
+.iconos__seccion4 {
+  height: 40px;
+  margin-bottom: 8px;
+}
+
+.titulos__iconos {
+  font-family: "Roboto", sans-serif;
+  margin: 0 0 16px 0;
+  font-weight: 500;
+  font-size: 15px;
+}
+
+.seccion4__parrafo {
+  margin: 20px 0 30px 0;
+  font-family: "Roboto", sans-serif;
+}
+
+
+
