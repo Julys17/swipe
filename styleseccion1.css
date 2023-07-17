@@ -61,6 +61,8 @@
 
 .main {
   font-family: "Roboto", sans-serif;
+  overflow-x: hidden;
+  overflow-y: hidden;
 }
 
 .contenedor1 {
@@ -234,4 +236,97 @@
   grid-area: tendencias;
   border-radius: 15%;
   height: 90%;
+}
+
+.seccion3 {
+  position: relative;
+  z-index: 1;
+}
+
+.diagonal-azul {
+  position: absolute;
+  top: -50px;
+  height: 900px;
+  width: 100%;
+  background-color: #0a2540;
+  transform: skewY(-10deg);
+  z-index: -1;
+}
+
+.contenedor__seccion3 {
+  padding: 16px;
+}
+
+.subtitulo__seccion3 {
+  color: #00d4ff;
+  font-family: "Anek Telugu", sans-serif;
+  font-size: 15px;
+  font-weight: 500;
+}
+
+.titulo__seccion3 {
+  color: #f7f9fc;
+  font-size: 32px;
+  margin: 16px 0;
+  font-family: "Anek Telugu", sans-serif;
+  display: flex;
+  justify-content: left;
+  line-height: 1.5em;
+}
+
+.parrafo__seccion3 {
+  color: #f7f9fc;
+  font-size: 18px;
+  margin: 0 5px;
+  margin-block-end: 16px;
+  line-height: 26px;
+  font-family: "Roboto", sans-serif;
+}
+
+.boton__star3 {
+  background-color: #00d4ff;
+  border: none;
+  display: flex;
+  align-items: center;
+  border-radius: 25px;
+  font-size: 14px;
+  letter-spacing: 1px;
+  padding: 8px 16px;
+  margin: 25px 5px;
+  font-weight: 700;
+}
+
+.iconos__seccion3 {
+  height: 50px;
+  margin: 8px 0;
+}
+
+.parrafos__seccion3 {
+  color: #adbdcc;
+  font-size: 16px;
+  line-height: 18px;
+  font-family: "Roboto", sans-serif;
+}
+
+.titulos__iconos3 {
+  color: #fff;
+  font-weight: 500;
+  font-family: "Roboto", sans-serif;
+  margin: 0 0 16px 0;
+}
+
+.direccionador__seccion3 {
+  background-color: transparent;
+  color: #00d4ff;
+  border: none;
+  display: flex;
+  align-items: center;
+  font-size: 14px;
+  letter-spacing: 1px;
+  margin: 25px 5px;
+  font-weight: 750;
+}
+
+.imagenes__seccion3 {
+  display: none;
 }
