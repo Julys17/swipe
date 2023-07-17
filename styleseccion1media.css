@@ -71,4 +71,13 @@
     list-style: none;
     grid-row-gap: 1em;
   }
+
+  .parrafos__seccion2{
+    display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  border-collapse: separate;
+  list-style: none;
+  grid-row-gap: 1em;
+  
+  }
 }
