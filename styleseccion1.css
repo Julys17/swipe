@@ -373,5 +373,80 @@
   font-family: "Roboto", sans-serif;
 }
 
+.seccion5 {
+  position: relative;
+}
 
+.diagonal-azul5 {
+  position: absolute;
+  top: -10px;
+  height: 1000px;
+  width: 100%;
+  background-color: #0a2540;
+  transform: skewY(-10deg);
+  z-index: -1;
+}
 
+.imagen__mundo {
+  opacity: 10%;
+  max-width: 844px;
+  padding: 16px;
+  position: absolute;
+  z-index: 2;
+}
+
+.seccion__global {
+  padding: 64px 16px;
+  margin: 62px 0 0 0;
+}
+
+.subtitulo__seccion5 {
+  color: #00d4ff;
+  font-family: "Anek Telugu", sans-serif;
+  font-size: 15px;
+  font-weight: 500;
+}
+
+.titulo__seccion5 {
+  color: #f7f9fc;
+  font-size: 32px;
+  margin: 16px 0;
+  font-family: "Anek Telugu", sans-serif;
+  display: flex;
+  justify-content: left;
+  line-height: 1.5em;
+}
+
+.parrafo__seccion5 {
+  color: #f7f9fc;
+  font-size: 18px;
+  margin: 0 5px;
+  margin-block-end: 16px;
+  line-height: 26px;
+  font-family: "Roboto", sans-serif;
+}
+
+.parrafo-renglon5 {
+  color: #00d4ff;
+  margin: 16px 0;
+}
+
+.indicadores__seccion5 {
+  color: #f7f9fc;
+  font-family: "Anek Telugu", sans-serif;
+  border-left: 2px solid #00d4ff;
+  font-weight: 500;
+  font-size: 16px;
+  width: 100%;
+  padding: 0 0 0 8px;
+  margin: 16px 0;
+}
+
+.parrafo__indicadores5 {
+  color: #6d7a88;
+  font-size: 14px;
+  margin: 16px 0;
+  letter-spacing: 0.25px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+}
