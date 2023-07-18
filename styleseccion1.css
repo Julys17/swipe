@@ -588,3 +588,34 @@
   margin: 25px 5px;
   font-weight: 750;
 }
+
+.seccion7 {
+  background-color: #f7f9fc;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  gap: 18px;
+  padding: 0 16px;
+  width: 100%;
+}
+
+.columnas {
+  display: block;
+  margin-block-start: 1rem;
+  margin-block-end: 1rem;
+  font-family: "Roboto", sans-serif;
+  line-height: 30px;
+}
+
+.ul {
+  list-style-type: none;
+}
+
+.logo__footer {
+  margin: 0 0 16px 0;
+  width: 70px;
+}
+
+.iconos__footer {
+  width: 18px;
+}
