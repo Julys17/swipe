@@ -327,10 +327,6 @@
   font-weight: 750;
 }
 
-.imagenes__seccion3 {
-  display: none;
-}
-
 .seccion4 {
   padding: 16px;
 }
@@ -390,14 +386,13 @@
 .imagen__mundo {
   opacity: 10%;
   max-width: 844px;
-  padding: 16px;
+  top: 15%;
   position: absolute;
   z-index: 2;
 }
 
 .seccion__global {
   padding: 64px 16px;
-  margin: 62px 0 0 0;
 }
 
 .subtitulo__seccion5 {
@@ -449,4 +444,147 @@
   letter-spacing: 0.25px;
   font-family: "Roboto", sans-serif;
   font-weight: 500;
+}
+
+.seccion6 {
+  padding: 0 16px;
+  background-color: white;
+}
+
+.subtitulo__seccion6 {
+  color: #6962f7;
+  font-family: "Anek Telugu", sans-serif;
+  font-size: 15px;
+  font-weight: 500;
+}
+
+.titulos__seccion6 {
+  font-size: 32px;
+  margin: 16px 0;
+  font-family: "Anek Telugu", sans-serif;
+  display: flex;
+  justify-content: left;
+  line-height: 1.5em;
+}
+
+.parrafos__seccion6 {
+  font-size: 18px;
+  margin: 0 5px;
+  margin-block-end: 16px;
+  line-height: 26px;
+  font-family: "Roboto", sans-serif;
+}
+
+.parrafo__renglon6 {
+  color: #6962f7;
+}
+
+.boton__star6 {
+  background-color: #7000ff;
+  color: white;
+  border: none;
+  display: flex;
+  align-items: center;
+  border-radius: 25px;
+  font-size: 14px;
+  letter-spacing: 1px;
+  padding: 8px 16px;
+  margin: 16px 5px;
+  font-weight: 700;
+  width: 130px;
+}
+
+.tarjeta__seccion6 {
+  margin: 32px 0;
+  border-radius: 20px;
+  height: 445px;
+  box-shadow: 0px 2px 40px rgba(0, 0, 0, 0.15);
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-content: center;
+  position: relative;
+  z-index: 1;
+}
+
+.diagonal__seccion6 {
+  background: linear-gradient(
+    101.33deg,
+    #08209a 0.76%,
+    #6563ff 33.33%,
+    #36c5f0 76.92%,
+    #83e2ff 96.96%
+  );
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: -55%;
+  transform: skewY(-5deg);
+  z-index: -1;
+}
+
+.avatar__femenino {
+  position: absolute;
+  left: 80px;
+  width: 75px;
+}
+
+.avatar__masculino {
+  position: absolute;
+  left: 130px;
+  width: 74px;
+}
+
+.texto__tarjeta6 {
+  padding: 50px 64px;
+  box-sizing: border-box;
+  width: 100%;
+}
+
+.parrafo__tarjeta {
+  font-size: 14px;
+  line-height: 18px;
+  color: #000;
+  letter-spacing: 0.25px;
+  font-weight: 700;
+  font-family: "Roboto", sans-serif;
+}
+
+.titulo__tarjeta6 {
+  color: #6962f7;
+  font-family: "Anek Telugu", sans-serif;
+  font-weight: 500;
+  font-size: 17px;
+  line-height: 26px;
+}
+
+.iconos__seccion6 {
+  height: 50px;
+  margin: 8px 0;
+}
+
+.titulos__iconos6 {
+  font-weight: 500;
+  font-family: "Roboto", sans-serif;
+  margin: 0 0 16px 0;
+}
+
+.seccion6__parrafo {
+  color: #adbdcc;
+  font-size: 14px;
+  line-height: 18px;
+  font-family: "Roboto", sans-serif;
+}
+
+.direccionador__seccion6 {
+  background-color: transparent;
+  color: #7000ff;
+  border: none;
+  display: flex;
+  align-items: center;
+  font-size: 14px;
+  letter-spacing: 1px;
+  margin: 25px 5px;
+  font-weight: 750;
 }

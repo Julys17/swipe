@@ -62,6 +62,24 @@
     list-style: none;
     grid-row-gap: 1rem;
   }
+
+  .seccion6{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    border-collapse: separate;
+    list-style: none;
+    grid-gap: 1rem; 
+    align-items: center; 
+  }
+
+  .imagen__mundo{
+    height: 85%;
+  }
+
+  .tarjeta__seccion6{
+    width: 150%;
+    max-width:470px ;
+  }
 }
 
 @media screen and (width >= 769px) {
@@ -148,6 +166,18 @@
     grid-template-columns: repeat(4, 1fr);
     border-collapse: separate;
     list-style: none;
-    grid-row-gap: 1rem;
+    grid-gap: 1rem;
+    align-items: center;    
+  }
+
+  .columnas__seccion6{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    border-collapse: separate;
+    list-style: none;
+    grid-gap: 1rem;
+    
+    line-height: 26px;
+    align-items: center; 
   }
 }
