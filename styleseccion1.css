@@ -589,34 +589,33 @@
   font-weight: 750;
 }
 
-.seccion7{
+.seccion7 {
   background-color: #f7f9fc;
   display: grid;
   grid-template-columns: 1fr 1fr;
-  grid-template-rows: 1fr 1fr; 
-  gap: 18px  ;
+  grid-template-rows: 1fr 1fr;
+  gap: 18px;
   padding: 0 16px;
-  width: 100%; 
+  width: 100%;
 }
 
-.columnas{
-  font-size: 12px;
-  display: block; 
+.columnas {
+  display: block;
   margin-block-start: 1rem;
   margin-block-end: 1rem;
-  font-family:"Roboto", sans-serif;
+  font-family: "Roboto", sans-serif;
   line-height: 30px;
-  }
+}
 
-.ul{
+.ul {
   list-style-type: none;
 }
 
-.logo__footer{
+.logo__footer {
   margin: 0 0 16px 0;
   width: 70px;
 }
 
-.iconos__footer{
+.iconos__footer {
   width: 18px;
 }
